@@ -5,4 +5,7 @@ I made this repo for my capstone PLTW Engineering course to collect data on netw
 
 If you would like to help with data collection, share personal testimonials about your equipment overheating and underperforming, your janky solutions to fix it, ideas our team should consider, or anything related to the stated issue, please open a new issue or comment on an existing one! 
 
+This lib requires the speedtest-cli library, which can be installed with
+```python3 -m pip install speedtest-cli```
+
 More stuff to come...
