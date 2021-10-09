@@ -4,6 +4,7 @@ import datetime
 import sys
 import threading
 import processor
+import GUI
 import multiprocessing
 
 run = True
@@ -20,6 +21,8 @@ def console():
         elif (userInput == "pr"):
             multiprocessing.Process(target=processor.main).start()
             print("Processed log")
+        elif (userInput == "gui"):
+            multiprocessing.Process(target=GUI.main).start()
         else:
             print("Unknown command!")
         
@@ -42,7 +45,7 @@ def main(args):
         else:
             past = time.time()
             log(str(n.ping()))
-            time.sleep(10 - (time.time() - past) - 0.008)
+            time.sleep(10 - (time.time() - past) - 0.009)
 
 if (__name__ == "__main__"):
     threading.Thread(target=main, args=(sys.argv,)).start()
