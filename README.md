@@ -19,7 +19,7 @@ E.g. ```python3 PLTW_EDD_Data_Collection.py google.com example.com```
 
 **Note: The IP/Hostname must have an open port on port 80.**
 
-The console commands are ```quit``` to exit the program and ```pr``` to process the log file into CSV files.
+The console commands are ```quit``` to exit the program and ```pr``` to process the log file into CSV files (Must be run in order for the GUI to work).
 
 To run the GUI, use ```gui```.
 
