@@ -8,7 +8,7 @@ If you would like to help with data collection, share personal testimonials abou
 This lib requires the speedtest-cli library, which can be installed with
 ```python3 -m pip install speedtest-cli```
 
-If you also want the GUI, you need DearPyGUI. Note this is temporarily the release candidate for v1.0.0. ```python3 -m pip install dearpygui==1.0.0rc2```
+If you also want the GUI, you need DearPyGUI. ```python3 -m pip install dearpygui```
 
 To run the data collection script, run ```python3 PLTW_EDD_Data_Collection.py```
 
